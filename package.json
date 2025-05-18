@@ -1,0 +1,28 @@
+{
+  "name": "file-sharing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^5.7.3",
+    "@next/font": "^14.2.13",
+    "firebase": "^10.14.0",
+    "lucide-react": "^0.446.0",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.4",
+    "@types/react": "18.3.10",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.6.2"
+  }
+}
